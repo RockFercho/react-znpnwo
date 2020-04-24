@@ -1,0 +1,54 @@
+body {
+  /* padding: 50px; */
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+/* Tic Tac Toe board */
+.fieldContainer {
+  width: 312px;
+}
+
+.field {
+  /* background-color: red; */
+  border: 1px #eee solid;
+  display: inline-block;
+  font-size: 72px;
+  line-height: 98px;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+}
+
+.empty:hover {
+  background-color: #fbfbfb;
+}
+
+.button{
+  margin-bottom: 15px;
+  margin-right: 5px;
+}
+
+.error {
+  background-color: #ffdddd;
+  border: 1px solid #ce6363;
+  font-size: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.msgContainer {
+  background-color: #dfffdd;
+  border: 1px solid #889687;
+  font-size: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+fieldset {
+  /* border: 0; */
+  border: 1px solid #d8d8d8;
+  /* border-left: none;
+  border-right: none;
+  border-bottom: none; */
+  margin-bottom: 5px;
+}
